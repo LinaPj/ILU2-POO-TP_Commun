@@ -15,8 +15,6 @@ public class ControlReservationRestaurant {
 
         ReservationRestaurant r = new ReservationRestaurant(jour, mois, service, table);
 
-        restaurant.ajouterReservation(r);
-
         return r;
     }
 }
